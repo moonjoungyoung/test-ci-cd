@@ -1,0 +1,4 @@
+aws ecr get-login-password | docker login --username AWS --password-stdin "643925335848.dkr.ecr.ap-northeast-2.amazonaws.com"
+
+docker tag test-ci-cd:latest 643925335848.dkr.ecr.ap-northeast-2.amazonaws.com/test-ci-cd
+
